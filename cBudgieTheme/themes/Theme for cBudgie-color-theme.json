@@ -1,7 +1,7 @@
 {
 	"name": "Theme for cBudgie",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#19191a",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -64,7 +64,7 @@
 				"keyword.operator.cbudgie"
 			],
 			"settings": {
-				"foreground": "#d1f2ff"
+				"foreground": "#ace8ff"
 			}
 		},
 		{
