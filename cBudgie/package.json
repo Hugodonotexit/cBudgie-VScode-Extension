@@ -2,6 +2,10 @@
   "name": "cbudgie",
   "displayName": "cBudgie",
   "description": "Syntaxes for cBudgie",
+  "publisher": "HugoWong",
+  "repository": {
+    "url": "https://github.com/Hugodonotexit/cBudgie-VScode-Extension"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"

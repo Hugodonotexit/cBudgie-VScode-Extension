@@ -1,7 +1,11 @@
 {
   "name": "cbudgie-tool",
-  "displayName": "Cbudgie Tool",
-  "description": "Cbudgie Tool",
+  "displayName": "cBudgie Tool",
+  "description": "cBudgie Tool",
+  "publisher": "HugoWong",
+  "repository": {
+    "url": "https://github.com/Hugodonotexit/cBudgie-VScode-Extension"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
