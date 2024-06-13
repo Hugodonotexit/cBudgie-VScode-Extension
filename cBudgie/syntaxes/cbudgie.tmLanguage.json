@@ -55,7 +55,7 @@
       },
       {
         "name": "variable.type.cbudgie",
-        "match": "\\b(int8|int16|int|int64|float8|float16|float|float64|uint8|uint16|uint|uint64|ufloat8|ufloat16|ufloat|float64|char|wchar|double|bool|struct|enum)\\b"
+        "match": "\\b(int8|int16|int|int64|float8|float16|float|float64|uint8|uint16|uint|uint64|char|wchar|double|bool|struct|enum)\\b"
       },
       {
         "name": "entity.name.function.cbudgie",
