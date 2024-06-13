@@ -1,0 +1,72 @@
+{
+    "include": {
+        "prefix": ["include"],
+        "body": ["include"],
+    },
+    "let": {
+        "prefix": ["let"],
+        "body": ["let"],
+    },
+    "as": {
+        "prefix": ["as"],
+        "body": ["as"],
+    },
+    "return": {
+        "prefix": ["return"],
+        "body": ["return"],
+    },
+    "continue": {
+        "prefix": ["continue"],
+        "body": ["continue"],
+    },
+    "For Loop": {
+      "prefix": ["for"],
+      "body": ["for (uint16 i = 0, i < count, i++) {", "\t$0", "}"],
+      "description": "A for loop."
+    },
+    "While Loop": {
+      "prefix": ["while"],
+      "body": ["while (boolean) {", "\t$0", "}"],
+      "description": "A while loop."
+    },
+    "If": {
+      "prefix": ["if"],
+      "body": ["if (boolean) {", "\t$0", "}"],
+      "description": "A for loop."
+    },
+    "Elif": {
+      "prefix": ["elif"],
+      "body": ["else if (boolean) {", "\t$0", "}"],
+      "description": "A for loop."
+    },
+    "Else": {
+      "prefix": ["else"],
+      "body": ["else {", "\t$0", "}"],
+      "description": "A for loop."
+    },
+    "Switch": {
+      "prefix": ["switch"],
+      "body": ["switch {", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak","\tdefault$0", "\t\t", "\tbreak", "}"],
+      "description": "A for loop."
+    },
+    "Case": {
+      "prefix": ["case"],
+      "body": ["case"],
+      "description": "A for loop."
+    },
+    "Default": {
+      "prefix": ["default"],
+      "body": ["default"],
+      "description": "A for loop."
+    },
+    "break": {
+      "prefix": ["default"],
+      "body": ["default"],
+      "description": "A for loop."
+    },
+    "main()": {
+      "prefix": ["def main()"],
+      "body": ["def main() {", "\t$0", "}"],
+      "description": "A for loop."
+    },
+}

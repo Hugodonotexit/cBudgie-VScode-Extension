@@ -1,0 +1,20 @@
+{
+  "name": "cbudgie-tool",
+  "displayName": "Cbudgie Tool",
+  "description": "Cbudgie Tool",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cbudgie",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

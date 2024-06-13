@@ -1,0 +1,65 @@
+{
+    "fileTypes": ["cbudgie"],
+    "name": "cbudgie",
+    "scopeName": "source.cbudgie",
+    "patterns": [
+      {
+        "name": "keyword.control.cbudgie",
+        "match": "\\b(include|if|else|switch|case|default|for|while|break|continue|return|let|as|def)\\b"
+      },
+      {
+        "name": "string.quoted.double.cbudgie",
+        "begin": "\"",
+        "beginCaptures": {
+          "0": {
+            "name": "punctuation.definition.string.begin.cbudgie"
+          }
+        },
+        "end": "\"",
+        "endCaptures": {
+          "0": {
+            "name": "punctuation.definition.string.end.cbudgie"
+          }
+        },
+        "patterns": [
+          {
+            "name": "constant.character.escape.cbudgie",
+            "match": "\\\\."
+          }
+        ]
+      },
+      {
+        "name": "constant.numeric.cbudgie",
+        "match": "\\b\\d+(\\.\\d+)?\\b"
+      },
+      {
+        "name": "keyword.operator.cbudgie",
+        "match": "\\+|\\-|\\*|\\/|%|=|\\+\\+|\\-\\-|>|<|>=|<=|&|\\||!|==|@"
+      },
+      {
+        "name": "punctuation.cbudgie",
+        "match": "\\(|\\)|\\[|\\]|\\{|\\}|<|>|,|\\."
+      },
+      {
+        "name": "comment.line.cbudgie",
+        "begin": "#",
+        "beginCaptures": {
+          "0": {
+            "name": "punctuation.definition.comment.cbudgie"
+          }
+        }
+      },
+      {
+        "name": "variable.cbudgie",
+        "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+      },
+      {
+        "name": "variable.type.cbudgie",
+        "match": "\\b(int8|int16|int|int64|float8|float16|float|float64|uint8|uint16|uint|uint64|ufloat8|ufloat16|ufloat|float64|char|wchar|double|bool|struct|enum)\\b"
+      },
+      {
+        "name": "entity.name.function.cbudgie",
+        "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=\\()"
+      }
+    ]
+  }

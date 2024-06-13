@@ -1,0 +1,21 @@
+{
+  "name": "cbudgie-theme",
+  "displayName": "cBudgie Theme",
+  "description": "Theme for cBudgie",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Theme for cBudgie",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Theme for cBudgie-color-theme.json"
+      }
+    ]
+  }
+}
