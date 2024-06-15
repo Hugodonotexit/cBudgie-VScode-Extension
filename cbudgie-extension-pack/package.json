@@ -1,0 +1,21 @@
+{
+  "name": "cbudgie-extension-pack",
+  "displayName": "cBudgie Extension pack",
+  "description": "cBudgie Extension pack",
+  "publisher": "HugoWong",
+  "repository": {
+    "url": "https://github.com/Hugodonotexit/cBudgie-VScode-Extension"
+  },
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "HugoWong.cbudgie",
+    "HugoWong.cbudgie-tool",
+    "HugoWong.cbudgie-theme"
+  ]
+}
