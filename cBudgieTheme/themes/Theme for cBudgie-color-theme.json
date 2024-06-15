@@ -79,7 +79,7 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-
+				"keyword.function.cbudgie"
 			],
 			"settings": {
 				"foreground": "#82AAFF"

@@ -21,52 +21,120 @@
     },
     "For Loop": {
       "prefix": ["for"],
-      "body": ["for (uint16 i = 0, i < count, i++) {", "\t$0", "}"],
+      "body": ["for uint16 i = 0, i < count, i++ {", "\t$0", "}"],
       "description": "A for loop."
     },
     "While Loop": {
       "prefix": ["while"],
-      "body": ["while (boolean) {", "\t$0", "}"],
+      "body": ["while hugo==smart {", "\t$0", "}"],
       "description": "A while loop."
     },
     "If": {
       "prefix": ["if"],
-      "body": ["if (boolean) {", "\t$0", "}"],
-      "description": "A for loop."
+      "body": ["if hugo==awsome {", "\t$0", "}"],
     },
     "Elif": {
       "prefix": ["elif"],
-      "body": ["else if (boolean) {", "\t$0", "}"],
-      "description": "A for loop."
+      "body": ["else if hugo==goat {", "\t$0", "}"],
+    },
+    "Else if": {
+      "prefix": ["else if"],
+      "body": ["else if hugo==goat {", "\t$0", "}"],
     },
     "Else": {
       "prefix": ["else"],
       "body": ["else {", "\t$0", "}"],
-      "description": "A for loop."
     },
     "Switch": {
       "prefix": ["switch"],
       "body": ["switch {", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak","\tdefault$0", "\t\t", "\tbreak", "}"],
-      "description": "A for loop."
     },
     "Case": {
       "prefix": ["case"],
       "body": ["case"],
-      "description": "A for loop."
     },
     "Default": {
       "prefix": ["default"],
       "body": ["default"],
-      "description": "A for loop."
     },
     "break": {
-      "prefix": ["default"],
-      "body": ["default"],
-      "description": "A for loop."
+      "prefix": ["break"],
+      "body": ["break"],
     },
     "main()": {
       "prefix": ["def main()"],
       "body": ["def main() {", "\t$0", "}"],
-      "description": "A for loop."
+    },
+    "int8": {
+        "prefix": ["int8"],
+        "body": ["int8"],
+    },
+    "int16": {
+        "prefix": ["int16"],
+        "body": ["int16"],
+    },
+    "int": {
+        "prefix": ["int"],
+        "body": ["int32"],
+    },
+    "int32": {
+        "prefix": ["int32"],
+        "body": ["int32"],
+    },
+    "int64": {
+        "prefix": ["int64"],
+        "body": ["int64"],
+    },
+    "float": {
+        "prefix": ["float"],
+        "body": ["float4"],
+    },
+    "float4": {
+        "prefix": ["float4"],
+        "body": ["float4"],
+    },
+    "float8": {
+        "prefix": ["float8"],
+        "body": ["float8"],
+    },
+    "double": {
+        "prefix": ["double"],
+        "body": ["float16"],
+    },
+    "float16": {
+        "prefix": ["float16"],
+        "body": ["float16"],
+    },
+    "uint8": {
+        "prefix": ["uint8"],
+        "body": ["uint8"],
+    },
+    "uint16": {
+        "prefix": ["uint16"],
+        "body": ["uint16"],
+    },
+    "uint": {
+        "prefix": ["uint"],
+        "body": ["uint32"],
+    },
+    "uint32": {
+        "prefix": ["uint32"],
+        "body": ["uint32"],
+    },
+    "char": {
+        "prefix": ["char"],
+        "body": ["char"],
+    },
+    "string": {
+        "prefix": ["string"],
+        "body": ["string"],
+    },
+    "bool": {
+        "prefix": ["bool"],
+        "body": ["bool"],
+    },
+    "wchar": {
+        "prefix": ["wchar"],
+        "body": ["wchar"],
     },
 }

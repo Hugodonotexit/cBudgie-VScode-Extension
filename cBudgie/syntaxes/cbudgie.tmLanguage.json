@@ -8,6 +8,10 @@
         "match": "\\b(if|else|switch|case|default|for|while|break|continue|return|let|as|def)\\b"
       },
       {
+        "name": "keyword.function.cbudgie",
+        "match": "\\b(CIN||COUT)\\b"
+      },
+      {
         "name": "string.quoted.double.cbudgie",
         "begin": "\"",
         "beginCaptures": {
