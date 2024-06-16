@@ -21,25 +21,25 @@
     },
     "For Loop": {
       "prefix": ["for"],
-      "body": ["for uint16 i = 0, i < count, i++ {", "\t$0", "}"],
+      "body": ["for (uint16 i = 0, i < count, i++) {", "\t$0", "}"],
       "description": "A for loop."
     },
     "While Loop": {
       "prefix": ["while"],
-      "body": ["while hugo==smart {", "\t$0", "}"],
+      "body": ["while (hugo==smart) {", "\t$0", "}"],
       "description": "A while loop."
     },
     "If": {
       "prefix": ["if"],
-      "body": ["if hugo==awsome {", "\t$0", "}"],
+      "body": ["if (hugo==awsome) {", "\t$0", "}"],
     },
     "Elif": {
       "prefix": ["elif"],
-      "body": ["else if hugo==goat {", "\t$0", "}"],
+      "body": ["else if (hugo==goat) {", "\t$0", "}"],
     },
     "Else if": {
       "prefix": ["else if"],
-      "body": ["else if hugo==goat {", "\t$0", "}"],
+      "body": ["else if (hugo==goat) {", "\t$0", "}"],
     },
     "Else": {
       "prefix": ["else"],
@@ -47,7 +47,7 @@
     },
     "Switch": {
       "prefix": ["switch"],
-      "body": ["switch {", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak","\tdefault$0", "\t\t", "\tbreak", "}"],
+      "body": ["switch (hugo) {", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak","\tdefault$0", "\t\t", "\tbreak", "}"],
     },
     "Case": {
       "prefix": ["case"],
