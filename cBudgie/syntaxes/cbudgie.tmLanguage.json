@@ -1,6 +1,6 @@
 {
   "fileTypes": ["cbudgie"],
-  "name": "C Budgie",
+  "name": "cBudgie",
   "scopeName": "source.cbudgie",
   "patterns": [
     {
