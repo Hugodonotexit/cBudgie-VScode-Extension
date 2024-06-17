@@ -21,7 +21,7 @@
     },
     "For Loop": {
       "prefix": ["for"],
-      "body": ["for (uint16 i = 0, i < count, i++) {", "\t$0", "}"],
+      "body": ["for (let i = 0, i < count, i++) {", "\t$0", "}"],
       "description": "A for loop."
     },
     "While Loop": {
