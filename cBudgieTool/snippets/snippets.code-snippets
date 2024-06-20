@@ -7,10 +7,6 @@
         "prefix": ["let"],
         "body": ["let"],
     },
-    "as": {
-        "prefix": ["as"],
-        "body": ["as"],
-    },
     "return": {
         "prefix": ["return"],
         "body": ["return"],
