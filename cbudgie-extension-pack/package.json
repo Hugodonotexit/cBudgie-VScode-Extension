@@ -3,6 +3,7 @@
   "displayName": "cBudgie Extension pack",
   "description": "cBudgie Extension pack",
   "publisher": "HugoWong",
+  "icon": "logo.png",
   "repository": {
     "url": "https://github.com/Hugodonotexit/cBudgie-VScode-Extension"
   },
