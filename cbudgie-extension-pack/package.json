@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/Hugodonotexit/cBudgie-VScode-Extension"
   },
-  "version": "0.0.2",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -15,7 +15,6 @@
   ],
   "extensionPack": [ 
     "HugoWong.cbudgie",
-    "HugoWong.cbudgie-tool",
-    "HugoWong.cbudgie-theme"
+    "HugoWong.cbudgie-tool"
   ]
 }
