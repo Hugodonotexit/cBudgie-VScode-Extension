@@ -5,7 +5,7 @@
   "patterns": [
     {
       "name": "keyword.control",
-      "match": "\\b(if|else|switch|case|default|for|while|break|continue|return|let|def)\\b"
+      "match": "\\b(if|else|for|while|break|continue|return|let|def)\\b"
     },
     {
       "name": "entity.name.function",

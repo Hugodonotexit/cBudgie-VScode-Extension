@@ -1,11 +1,11 @@
 {
-    "include": {
-        "prefix": ["include"],
-        "body": ["include"],
-    },
     "let": {
         "prefix": ["let"],
         "body": ["let"],
+    },
+    "def": {
+        "prefix": ["def"],
+        "body": ["def"],
     },
     "return": {
         "prefix": ["return"],
@@ -17,7 +17,7 @@
     },
     "For Loop": {
       "prefix": ["for"],
-      "body": ["for (let i = 0:count) {", "\t$0", "}"],
+      "body": ["for (let i = 0:count:step) {", "\t$0", "}"],
       "description": "A for loop."
     },
     "While Loop": {
@@ -40,18 +40,6 @@
     "Else": {
       "prefix": ["else"],
       "body": ["else {", "\t$0", "}"],
-    },
-    "Switch": {
-      "prefix": ["switch"],
-      "body": ["switch (hugo) {", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak", "\tcase$0", "\t\t", "\tbreak","\tdefault$0", "\t\t", "\tbreak", "}"],
-    },
-    "Case": {
-      "prefix": ["case"],
-      "body": ["case"],
-    },
-    "Default": {
-      "prefix": ["default"],
-      "body": ["default"],
     },
     "break": {
       "prefix": ["break"],
