@@ -17,7 +17,7 @@
     },
     "For Loop": {
       "prefix": ["for"],
-      "body": ["for (let i = 0, i < count, i++) {", "\t$0", "}"],
+      "body": ["for (let i = 0, i < count, i = i + 1) {", "\t$0", "}"],
       "description": "A for loop."
     },
     "While Loop": {
