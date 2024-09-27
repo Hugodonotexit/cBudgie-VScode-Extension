@@ -4,47 +4,86 @@
   "scopeName": "source.cbudgie",
   "patterns": [
     {
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#inbuiltMethods"
+		},
+    {
+      "include": "#methods"
+    },
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#numerics"
+		},
+		{
+			"include": "#variables"
+		}
+  ],
+  "repository": {
+    "keywords":{
       "name": "keyword.control",
       "match": "\\b(if|else|for|while|break|continue|return|let|def)\\b"
     },
-    {
+    "inbuiltMethods":{
       "name": "entity.name.function",
-      "match": "\\b(CIN|COUT)\\b"
+      "match": "\\b(read|print|toNum|toBool|toString)\\b"
     },
-    {
-      "name": "string.quoted.single",
-      "begin": "'",
-      "beginCaptures": {
-        "0": {
-          "name": "punctuation.definition.string.begin"
-        }
-      },
-      "end": "'",
-      "endCaptures": {
-        "0": {
-          "name": "punctuation.definition.string.end"
-        }
-      },
+    "strings":{
       "patterns": [
         {
           "name": "constant.character.escape",
           "match": "\\\\."
+        },
+        {
+          "name": "string.quoted.single",
+          "begin": "'",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.definition.string.begin"
+            }
+          },
+          "end": "'",
+          "endCaptures": {
+            "0": {
+              "name": "punctuation.definition.string.end"
+            }
+          }
+        },{
+          "name": "string.quoted.double",
+          "begin": "\"",
+          "beginCaptures": {
+            "0":{
+              "name": "punctuation.definition.string.begin"
+            }
+          },
+          "end": "\"",
+          "endCaptures":{
+            "0":{
+              "name":"punctuation.definition.string.end"
+            }
+          }
         }
       ]
     },
-    {
+    "numerics":{
       "name": "constant.numeric",
       "match": "\\b\\d+(\\.\\d+)?\\b"
     },
-    {
+    "operators":{
       "name": "keyword.operator",
-      "match": "\\+|\\-|\\*|\\/|%|=|\\+\\+|\\-\\-|>|<|>=|<=|&|\\||!|!\\||==|@"
+      "match": "\\+|\\-|\\*|\\*\\*|\\/|%|=|>|<|>=|<=|&|\\||!|^|==|!="
     },
-    {
+    "punctuation":{
       "name": "punctuation",
       "match": "\\(|\\)|\\[|\\]|\\{|\\}|,|\\."
     },
-    {
+    "comments":{
       "name": "comment.line",
       "begin": "#",
       "beginCaptures": {
@@ -54,13 +93,17 @@
       },
       "end": "$"
     },
-    {
+    "variables":{
       "name": "variable",
       "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
     },
-    {
+    "methods":{
       "name": "entity.name.function",
       "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=\\()"
-    }
-  ]
+    },
+		"constants": {
+			"match": "\\b(true|false)\\b",
+			"name": "constant.language.cbudgie"
+		}
+  }
 }
